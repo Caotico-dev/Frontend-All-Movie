@@ -3,6 +3,9 @@ import Footer from "./components/Footer.jsx";
 import Slider from "./components/Slider.jsx";
 import Container from "./components/Container.jsx";
 import MovieOffer from "./components/movieOffer.jsx";
+import MoreView from "./components/MoreView.jsx";
+import Plans from "./components/plans.jsx";
+
 
 function App() {  
   return (
@@ -10,7 +13,9 @@ function App() {
       <Header />
       <Container>
         <Slider />
-        <MovieOffer/>        
+        <MovieOffer/>   
+        <MoreView/>    
+        <Plans/> 
       </Container>
       <Footer />
     </>
