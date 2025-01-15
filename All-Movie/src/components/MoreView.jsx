@@ -10,7 +10,7 @@ function MoreView() {
 
         <div className="col w-75">
           <img src={view1} className="img-fluid" alt="more view" />
-          <div className="bg-white w-100 p-2">
+          <div className="bg-white w-100 p-2 rounded-bottom">
             <p className="text-start">
               <strong>Sipnosis: </strong> Lorem ipsum dolor, sit amet
               consectetur adipisicing elit. Ratione facere tempore perferendis
@@ -25,7 +25,7 @@ function MoreView() {
         </div>
         <div className="col  w-75">
           <img src={view2} className="img-fluid" alt="more view" />
-          <div className="bg-white w-100 p-2">
+          <div className="bg-white w-100 p-2 rounded-bottom">
             <p className="text-start">
               <strong>Sipnosis: </strong> Lorem ipsum dolor, sit amet
               consectetur adipisicing elit. Ratione facere tempore perferendis
@@ -40,7 +40,7 @@ function MoreView() {
         </div>
         <div className="col w-75">
           <img src={view3} className="img-fluid" alt="more view" />
-          <div className="bg-white w-100 p-2">
+          <div className="bg-white w-100 p-2 rounded-bottom">
             <p className="text-start">
               <strong>Sipnosis: </strong> Lorem ipsum dolor, sit amet
               consectetur adipisicing elit. Ratione facere tempore perferendis

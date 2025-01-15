@@ -9,7 +9,7 @@ function MovieOffer() {
       <div className="row my-4 w-75 mx-auto">
         <div className="col w-75">
           <img src={movie1} className="img-fluid" alt="Movie offer" />
-          <div className="bg-white w-100 p-2">
+          <div className="bg-white w-100 p-2 rounded-bottom">
             <p className="text-start">
               Precio: <strong>10.9$</strong>
             </p>
@@ -23,7 +23,7 @@ function MovieOffer() {
         </div>
         <div className="col  w-75">
           <img src={movie2} className="img-fluid" alt="Movie offer" />
-          <div className="bg-white w-100 p-2">
+          <div className="bg-white w-100 p-2 rounded-bottom">
             <p className="text-start">
               Precio: <strong>40.9$</strong>
             </p>
@@ -37,7 +37,7 @@ function MovieOffer() {
         </div>
         <div className="col w-75">
           <img src={movie3} className="img-fluid" alt="Movie offer" />
-          <div className="bg-white w-100 p-2">
+          <div className="bg-white w-100 p-2 rounded-bottom">
             <p className="text-start">
               Precio: <strong>80.9$</strong>
             </p>
