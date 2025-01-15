@@ -11,7 +11,7 @@ function Plans() {
             <li>Puede ver peliculas en un dispositvo a la vez.</li>
             <li>Reproducion 720p HD.</li>
           </ul>
-          <button type="button" class="btn btn-success ">
+          <button type="button" className="btn btn-success ">
               Comprar
             </button>
         </div>
@@ -24,7 +24,7 @@ function Plans() {
             <li>Reproducion 1080p HD.</li>
             <li>Opcion de agregar un miembro extra.</li>
           </ul>
-          <button type="button" class="btn btn-success">
+          <button type="button" className="btn btn-success">
               Comprar
             </button>
         </div>
@@ -38,7 +38,7 @@ function Plans() {
             <li>Puede descargar peliculas.</li>
             <li>Puede ver peliculas en extreno.</li>
           </ul>
-          <button type="button" class="btn btn-success position-sticky" style={{bottom:"10px"}}>
+          <button type="button" className="btn btn-success position-sticky" style={{bottom:"10px"}}>
               Comprar
             </button>
         </div>

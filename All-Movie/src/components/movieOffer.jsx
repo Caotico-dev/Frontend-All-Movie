@@ -16,7 +16,7 @@ function MovieOffer() {
             <p className="text-start">
               Descuente de <strong>30%</strong>
             </p>
-            <button type="button" class="btn btn-success">
+            <button type="button" className="btn btn-success">
               Comprar
             </button>
           </div>
@@ -30,7 +30,7 @@ function MovieOffer() {
             <p className="text-start">
               Descuento de <strong>40%</strong>
             </p>
-            <button type="button" class="btn btn-success">
+            <button type="button" className="btn btn-success">
               Comprar
             </button>
           </div>
@@ -44,7 +44,7 @@ function MovieOffer() {
             <p className="text-start">
               Descuente de <strong>50%</strong>
             </p>
-            <button type="button" class="btn btn-success">
+            <button type="button" className="btn btn-success">
               Comprar
             </button>
           </div>

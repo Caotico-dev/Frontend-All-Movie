@@ -18,7 +18,7 @@ function MoreView() {
               beatae. Explicabo officiis vel voluptatibus quis facilis atque
               numquam rerum.
             </p>
-            <button type="button" class="btn btn-success">
+            <button type="button" className="btn btn-success">
               Ver mas
             </button>
           </div>
@@ -33,7 +33,7 @@ function MoreView() {
               beatae. Explicabo officiis vel voluptatibus quis facilis atque
               numquam rerum.
             </p>
-            <button type="button" class="btn btn-success">
+            <button type="button" className="btn btn-success">
               Ver mas
             </button>
           </div>
@@ -48,7 +48,7 @@ function MoreView() {
               beatae. Explicabo officiis vel voluptatibus quis facilis atque
               numquam rerum.
             </p>
-            <button type="button" class="btn btn-success">
+            <button type="button" className="btn btn-success">
               Ver mas
             </button>
           </div>
