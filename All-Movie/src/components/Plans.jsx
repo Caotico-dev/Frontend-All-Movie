@@ -3,7 +3,6 @@ function Plans() {
     <section>
       <h2 className="text-center">Planes de suscripcion</h2>
       <div className="row my-4 mx-auto">
-
         {/* Plan Básico */}
         <div className="col bg-white mx-2 p-2 w-75 d-flex flex-column justify-content-between rounded">
           <div>
@@ -57,11 +56,9 @@ function Plans() {
             </button>
           </div>
         </div>
-
       </div>
     </section>
   );
 }
 
 export default Plans;
-
