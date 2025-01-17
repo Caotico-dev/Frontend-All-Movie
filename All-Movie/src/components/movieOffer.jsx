@@ -5,7 +5,7 @@ import movie3 from "../assets/Movie-offer-3.png";
 function MovieOffer() {
   return (
     <section>
-      <h2 className="text-center">Oferta de Peliculas.</h2>
+      <h2 className="text-center">Ofertas de Peliculas.</h2>
       <div className="row my-4 w-75 mx-auto">
         <div className="col w-75">
           <img src={movie1} className="img-fluid" alt="Movie offer" />

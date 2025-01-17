@@ -13,6 +13,9 @@ function Plans() {
               <li>Reproducion 720p HD.</li>
             </ul>
           </div>
+          <p className="ps-4">
+              Precio: <strong>40.9$</strong>
+            </p>
           <div className="d-flex justify-content-start mt-auto">
             <button type="button" className="btn btn-success">
               Comprar
@@ -31,6 +34,9 @@ function Plans() {
               <li>Opcion de agregar un miembro extra.</li>
             </ul>
           </div>
+          <p className="ps-4">
+              Precio: <strong>70.9$</strong>
+            </p>
           <div className="d-flex justify-content-start mt-auto">
             <button type="button" className="btn btn-success">
               Comprar
@@ -49,6 +55,9 @@ function Plans() {
               <li>Puede descargar peliculas.</li>
               <li>Puede ver peliculas en extreno.</li>
             </ul>
+            <p className="ps-4">
+              Precio: <strong>100.9$</strong>
+            </p>
           </div>
           <div className="d-flex justify-content-start mt-auto">
             <button type="button" className="btn btn-success">

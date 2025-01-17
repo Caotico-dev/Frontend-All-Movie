@@ -6,17 +6,22 @@ import MovieOffer from "./components/movieOffer.jsx";
 import MoreView from "./components/MoreView.jsx";
 import Plans from "./components/plans.jsx";
 
-
-function App() {  
+function App() {
   return (
     <>
-      <Header />
-      <Container>
-        <Slider />
-        <MovieOffer/>   
-        <MoreView/>    
-        <Plans/> 
-      </Container>
+      <Header>
+        <Container>
+          <Slider />
+          <MovieOffer />
+          <MoreView />
+          <Plans /> {/**Inicio */}
+        </Container>
+        <Container></Container>
+        <Container>
+          <Plans />
+          <MovieOffer /> {/**Planes Suscripcion */}
+        </Container>
+      </Header>
       <Footer />
     </>
   );
