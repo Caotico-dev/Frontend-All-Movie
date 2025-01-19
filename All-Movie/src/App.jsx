@@ -4,7 +4,8 @@ import Slider from "./components/Slider.jsx";
 import Container from "./components/Container.jsx";
 import MovieOffer from "./components/movieOffer.jsx";
 import MoreView from "./components/MoreView.jsx";
-import Plans from "./components/plans.jsx";
+import Plans from "./components/Plans.jsx";
+import Movie from "./components/Movie.jsx";
 
 function App() {
   return (
@@ -16,7 +17,13 @@ function App() {
           <MoreView />
           <Plans /> {/**Inicio */}
         </Container>
-        <Container></Container>
+
+        <Container>
+          <Movie category="Accion" listmovie={[{nombre:"Daniel", sipnosis:"probando"},{nombre:"Daniel", sipnosis:"probando"},{nombre:"Daniel", sipnosis:"probando"}
+            ,{nombre:"Daniel", sipnosis:"probando"},{nombre:"Daniel", sipnosis:"probando"}
+          ]}/>         
+        </Container>
+
         <Container>
           <Plans />
           <MovieOffer /> {/**Planes Suscripcion */}
