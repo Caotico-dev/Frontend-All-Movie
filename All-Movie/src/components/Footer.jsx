@@ -8,10 +8,10 @@ function Footer() {
           <li>Numero: 809-232-0389</li>
         </ul>
       </div>
-      <a href="#" className="mx-3 text-dark text-decoration-none">
+      <a href="#" className="mx-3 text-dark text-decoration-none" onClick={e => e.preventDefault()}>
         Terminos y uso.
       </a>
-      <a href="#" className="mx-3 text-dark text-decoration-none">
+      <a href="#" className="mx-3 text-dark text-decoration-none" onClick={e => e.preventDefault()}>
         Politica de privacidad.
       </a>
     </footer>
