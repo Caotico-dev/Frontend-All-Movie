@@ -8,7 +8,7 @@ function Container({ children }) {
         Bienvenido a{" "}
         <span className="text-light bg-success px-2">All-Movie</span>
       </h2>
-      <h2 className="text-center">El mejor lugar para ver Peliculas.</h2>
+      <h2 className="text-center">Tu lugar favorito para ver Peliculas.</h2>
       {children}
     </div>
   );

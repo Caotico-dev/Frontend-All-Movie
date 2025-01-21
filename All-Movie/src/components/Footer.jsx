@@ -4,8 +4,8 @@ function Footer() {
       <div className="mx-3">
         <h2>Contactos</h2>
         <ul className="list-unstyled">
-          <li>Correo: allmovie@movie.com</li>
-          <li>Numero: 809-232-0389</li>
+          <li>Correo: <a  href="mailto:allmovie@movie.com" className="text-dark text-decoration-none">allmovie@movie.com</a></li>
+          <li>Telefono: <a href="tel:+18092320389" className="text-dark text-decoration-none">809-232-0389</a></li>
         </ul>
       </div>
       <a href="#" className="mx-3 text-dark text-decoration-none" onClick={e => e.preventDefault()}>

@@ -58,7 +58,7 @@ function App() {
               { nombre: "La Maldicion del Perla Negra.", sipnosis: "El capitán Barbossa le roba el barco al pirata Jack Sparrow y secuestra a Elizabeth, amiga de Will Turner. Barbossa y su tripulación son víctimas de un conjuro que los condena a vivir eternamente y a transformarse cada noche en esqueletos vivientes." },
               { nombre: "La Maldicion del Perla Negra.", sipnosis: "El capitán Barbossa le roba el barco al pirata Jack Sparrow y secuestra a Elizabeth, amiga de Will Turner. Barbossa y su tripulación son víctimas de un conjuro que los condena a vivir eternamente y a transformarse cada noche en esqueletos vivientes." }
             ]}
-          />
+          />{/**Peliculas */}
         </Container>
 
         <Container>
