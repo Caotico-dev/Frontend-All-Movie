@@ -2,34 +2,23 @@ import Slider1 from "../assets/Slider-1.png";
 import Slider2 from "../assets/Slider-2.png";
 import Slider3 from "../assets/Slider-3.png";
 
-function Slider() {
+const sliderImages  = [Slider1,Slider2,Slider3];
+
+function Slider({slider = sliderImages}) {
   return (
     <div id="carouselExample" className="carousel slide mb-4">
       <div className="carousel-inner">
-        <div className="carousel-item active">
+        {slider.map((slider,index)=>(
+          <div className="carousel-item active" key={index}>
           <img
-            src={Slider1}
+            src={slider}
             className="d-block w-100"
             style={{ objectFit: "cover" }}
             alt="Slider1"
           />
-        </div>
-        <div className="carousel-item">
-          <img
-            src={Slider2}
-            className="d-block w-100"
-            style={{ objectFit: "cover" }}
-            alt="Slider2"
-          />
-        </div>
-        <div className="carousel-item">
-          <img
-            src={Slider3}
-            className="d-block w-100"
-            style={{ objectFit: "cover" }}
-            alt="Slider3"
-          />
-        </div>
+        </div>          
+        ))}      
+ 
       </div>
       <button
         className="carousel-control-prev"
