@@ -9,7 +9,7 @@ function Slider({slider = sliderImages}) {
     <div id="carouselExample" className="carousel slide mb-4">
       <div className="carousel-inner">
         {slider.map((slider,index)=>(
-          <div className="carousel-item active" key={index}>
+          <div className={`carousel-item ${index === 0 ? "active":""}`} key={index}>
           <img
             src={slider}
             className="d-block w-100"
